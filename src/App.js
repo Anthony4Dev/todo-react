@@ -106,12 +106,11 @@ function App() {
         {todos.map((todo) => (
           <div className="todo" key={todo.id}>
             <h3 className={todo.done ? "todo-done" : ""}>{todo.title}</h3>
-            <p>Duração: {todo.Time}</p>
+            <p>Duração: {todo.time} hora(s)</p>
             <div className='actions'>
               <span onClick={() => handleEdit(todo)}>
                 {!todo.done ? <BsBookmarkCheck /> : <BsBookmarkCheckFill id='filled'/>}
               </span>
-
               <span id='trash'>
               <BsTrash onClick={() => handleDelete(todo.id)} />
               </span>
