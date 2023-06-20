@@ -83,7 +83,7 @@ margin: 1em 2em;
 
 .todo-done{
   text-decoration: line-through;
-  color: rgb(0, 13, 255);
+  color: #00ffff;
   transition: .5s;
 }
 
@@ -101,6 +101,14 @@ margin: 1em 2em;
   transition: .5s;
 }
 
-.todo svg:hover {
-  color: #00ffff
+span svg:hover{
+  color: #00ffff;
+}
+
+#trash svg:hover{
+  color: rgb(221, 5, 5);
+}
+
+#filled {
+  color: #00ffff;
 }

@@ -109,9 +109,12 @@ function App() {
             <p>Duração: {todo.Time}</p>
             <div className='actions'>
               <span onClick={() => handleEdit(todo)}>
-                {!todo.done ? <BsBookmarkCheck /> : <BsBookmarkCheckFill />}
+                {!todo.done ? <BsBookmarkCheck /> : <BsBookmarkCheckFill id='filled'/>}
               </span>
+
+              <span id='trash'>
               <BsTrash onClick={() => handleDelete(todo.id)} />
+              </span>
             </div>
           </div>
         ))}
