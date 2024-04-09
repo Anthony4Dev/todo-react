@@ -7,9 +7,15 @@
       "done": false
     },
     {
-      "id": 0.886977104087949,
-      "title": "Fazer um  portfolio",
-      "time": "4",
+      "id": 0.06720682942552658,
+      "title": "Dar NPM run server para rodar aplicação",
+      "time": "2",
+      "done": false
+    },
+    {
+      "id": 0.13669965139479645,
+      "title": "Dar Npm Start",
+      "time": "2",
       "done": false
     }
   ]
